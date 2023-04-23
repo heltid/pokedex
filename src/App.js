@@ -8,7 +8,6 @@ import About from './Components/About';
 function App() {
   return (
     <>
-      {/* <Main/> */}
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Main/>} />
